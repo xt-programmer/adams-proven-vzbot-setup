@@ -1,0 +1,14 @@
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+# Local secrets and runtime state
+.env
+.env.*
+*.log
+*.key
+*.pem
+moonraker.secrets
+.secrets
