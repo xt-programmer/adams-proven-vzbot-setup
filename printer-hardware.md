@@ -1,6 +1,6 @@
 # Printer hardware
 
-Physical hardware fitted to Adam's VZBot, as reported by the owner. This list provides context for the configuration files; it is not a recommended parts list or a build guide.
+This is the hardware I'm running on my VZBot 330 AWD, listed here as a reference alongside my configuration.
 
 | Component | Specification |
 | --- | --- |
@@ -23,4 +23,4 @@ Physical hardware fitted to Adam's VZBot, as reported by the owner. This list pr
 | Host computer | Orange Pi 5 Pro |
 | Heated bed | 240 V AC heated bed |
 
-Hardware descriptions do not establish wiring, pin assignments, electrical ratings beyond those listed, or calibration values. Refer to the [README](README.md) for the configuration snapshot and its machine-specific limitations. **Do not copy and paste the configuration onto another printer.**
+See the [README](README.md) for my configuration files. **Do not copy and paste my configuration onto another printer:** matching parts do not mean matching wiring or calibration.
