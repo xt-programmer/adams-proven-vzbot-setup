@@ -8,7 +8,7 @@ I'm sharing it so other VZBot owners have a proven example to look through, comp
 
 ## My printer
 
-I'm running a VZBot 330 AWD with LDO 2504AC steppers, CNC metal parts, LDO rails, a Goliath hotend, Hextrudort extruder, CPAP cooling, RSCS fans, and a Cartographer probe. It has a full plexiglass enclosure, a PTC chamber heater, and a 240 V AC heated bed, with an Octopus Pro, TMC5160 Pro drivers, and an Orange Pi 5 Pro.
+I'm running a VZBot 330 AWD with LDO 2504AC steppers, CNC metal parts, LDO rails, a Goliath hotend, Hextrudort extruder, CPAP cooling, RSCS fans, and a Cartographer probe. It has a full plexiglass enclosure, a PTC chamber heater, and a 240 V AC heated bed, with an Octopus Pro, TMC5160 Pro drivers, and an Orange Pi 5 Pro. Dual power supplies provide 48 V for motor drive and 24 V for the remaining DC hardware.
 
 The full parts list is in [printer-hardware.md](printer-hardware.md).
 
@@ -24,7 +24,18 @@ The full parts list is in [printer-hardware.md](printer-hardware.md).
 
 The saved PID values, bed mesh, Cartographer models, input shaping, and pressure advance belong to my setup. They are included for reference, not as calibration values for another printer. My macros and fan mappings are customized too, so read them together with the main configuration.
 
-Slicer profiles and slicer-related files will be shared separately.
+## OrcaSlicer profiles
+
+My OrcaSlicer exports are in [slicer/](slicer/), alongside the Klipper files in [config/](config/).
+
+| File | Contents |
+| --- | --- |
+| [VZBot - 0.4.orca_printer](slicer/VZBot%20-%200.4.orca_printer) | Printer bundle with my 0.4 mm printer preset, 12 filament presets, and four process presets |
+| [Printer presets.zip](slicer/Printer%20presets.zip) | Separate export containing the same printer preset as `VZBot - 0.4.json` |
+
+Import the `.orca_printer` bundle using OrcaSlicer's configuration import. The ZIP provides the printer preset separately if you only need that file; extract it to access the JSON. The printer preset inherits from OrcaSlicer's `Vzbot 330 AWD 0.4 nozzle` profile, so that base profile must be available.
+
+These are the settings I use on my machine. Review the temperatures, cooling, speeds, acceleration, flow, and retraction before adapting them. The printer preset calls `PRINT_START` and `PRINT_END`, which are defined in [macros.cfg](config/macros.cfg).
 
 ## Redacted details
 

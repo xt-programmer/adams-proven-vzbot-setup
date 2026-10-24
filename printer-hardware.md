@@ -20,6 +20,7 @@ This is the hardware I'm running on my VZBot 330 AWD, listed here as a reference
 | Chamber heater | PTC |
 | Controller | Octopus Pro |
 | Stepper drivers | TMC5160 Pro |
+| Power supplies | Dual power supplies: 48 V for motor drive, 24 V for the remaining DC hardware |
 | Host computer | Orange Pi 5 Pro |
 | Heated bed | 240 V AC heated bed |
 
