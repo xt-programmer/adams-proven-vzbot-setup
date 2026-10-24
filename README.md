@@ -12,6 +12,7 @@ There is no installation or getting-started guide here. Slicer profiles and slic
 
 | File | Purpose |
 | --- | --- |
+| [printer-hardware.md](printer-hardware.md) | Owner-reported physical printer specifications and fitted components |
 | [printer.cfg](config/printer.cfg) | Main Klipper configuration: motion, motors and drivers, extruder, heaters, fans, input shaping, and saved calibration |
 | [cartographer.cfg](config/cartographer.cfg) | Cartographer MCU and probe, bed mesh geometry, ADXL345, and resonance testing |
 | [macros.cfg](config/macros.cfg) | Print start/end, pause/cancel, and fan-control macros |
@@ -22,7 +23,7 @@ The main configuration includes mainsail.cfg, macros.cfg, and cartographer.cfg. 
 
 ## Configuration at a glance
 
-The following describes the contents of this snapshot; it is not a recommended hardware list or a set of target values.
+The following describes the contents of this snapshot; it is not a recommended hardware list or a set of target values. See [Printer hardware](printer-hardware.md) for the owner-reported physical specifications, including the AWD motion system, Goliath hotend, Octopus Pro, and Orange Pi 5 Pro.
 
 | Area | What the files describe |
 | --- | --- |
@@ -36,7 +37,7 @@ The following describes the contents of this snapshot; it is not a recommended h
 | Cooling | Part cooling, hotend fan, two RSCS fans, and exhaust fan |
 | Chamber | Temperature sensor and a separate multi-pin chamber output |
 
-The file set does not establish every board revision, motor model, hotend model, or firmware version. Those details should not be inferred from the printer name alone.
+The configuration files alone do not establish every board revision, motor model, hotend model, or firmware version. The separate hardware list records the owner's supplied specifications; unlisted details should not be inferred from the printer name alone.
 
 ## Machine-specific details worth noticing
 
