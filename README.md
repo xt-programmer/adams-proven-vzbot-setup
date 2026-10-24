@@ -31,9 +31,9 @@ My OrcaSlicer exports are in [slicer/](slicer/), alongside the Klipper files in 
 | File | Contents |
 | --- | --- |
 | [VZBot - 0.4.orca_printer](slicer/VZBot%20-%200.4.orca_printer) | Printer bundle with my 0.4 mm printer preset, 12 filament presets, and four process presets |
-| [Printer presets.zip](slicer/Printer%20presets.zip) | Separate export containing the same printer preset as `VZBot - 0.4.json` |
+| [VZBot - 0.4.json](slicer/VZBot%20-%200.4.json) | Separate JSON export of the same printer preset |
 
-Import the `.orca_printer` bundle using OrcaSlicer's configuration import. The ZIP provides the printer preset separately if you only need that file; extract it to access the JSON. The printer preset inherits from OrcaSlicer's `Vzbot 330 AWD 0.4 nozzle` profile, so that base profile must be available.
+Import the `.orca_printer` bundle using OrcaSlicer's configuration import. The JSON provides the printer preset separately if you only need that file. The printer preset inherits from OrcaSlicer's `Vzbot 330 AWD 0.4 nozzle` profile, so that base profile must be available.
 
 These are the settings I use on my machine. Review the temperatures, cooling, speeds, acceleration, flow, and retraction before adapting them. The printer preset calls `PRINT_START` and `PRINT_END`, which are defined in [macros.cfg](config/macros.cfg).
 
