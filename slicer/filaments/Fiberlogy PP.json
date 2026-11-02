@@ -1,0 +1,52 @@
+{
+    "additional_cooling_fan_speed": [
+        "60"
+    ],
+    "compatible_printers": [
+        "Vzbot 330 AWD 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#303030"
+    ],
+    "fan_max_speed": [
+        "75"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_retract_restart_extra": [
+        "0.08"
+    ],
+    "filament_settings_id": [
+        "Fiberlogy PP"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "from": "User",
+    "inherits": "Generic PP @System",
+    "is_custom_defined": "0",
+    "name": "Fiberlogy PP",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "slow_down_min_speed": [
+        "6"
+    ],
+    "textured_plate_temp": [
+        "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "50"
+    ],
+    "version": "2.3.1.10"
+}

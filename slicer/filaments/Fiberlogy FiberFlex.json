@@ -1,0 +1,55 @@
+{
+    "additional_cooling_fan_speed": [
+        "60"
+    ],
+    "default_filament_colour": [
+        "#B9B9B9"
+    ],
+    "fan_cooling_layer_time": [
+        "10"
+    ],
+    "fan_max_speed": [
+        "80"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cost": [
+        "35"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_settings_id": [
+        "Fiberlogy FiberFlex"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "from": "User",
+    "inherits": "Vzbot Generic TPU",
+    "is_custom_defined": "0",
+    "name": "Fiberlogy FiberFlex",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "225"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "5"
+    ],
+    "textured_plate_temp": [
+        "72"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "72"
+    ],
+    "version": "2.3.1.10"
+}

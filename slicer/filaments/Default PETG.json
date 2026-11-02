@@ -1,0 +1,73 @@
+{
+    "additional_cooling_fan_speed": [
+        "85"
+    ],
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "compatible_printers": [
+        "Vzbot 330 AWD 0.4 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+        "0"
+    ],
+    "default_filament_colour": [
+        "#00D2FD"
+    ],
+    "during_print_exhaust_fan_speed": [
+        "0"
+    ],
+    "fan_cooling_layer_time": [
+        "70"
+    ],
+    "fan_max_speed": [
+        "16"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.9"
+    ],
+    "filament_max_volumetric_speed": [
+        "35"
+    ],
+    "filament_settings_id": [
+        "Default PETG"
+    ],
+    "filament_vendor": [
+        "Any"
+    ],
+    "from": "User",
+    "inherits": "Generic PETG @System",
+    "is_custom_defined": "0",
+    "name": "Default PETG",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "overhang_fan_speed": [
+        "14"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "slow_down_min_speed": [
+        "30"
+    ],
+    "version": "2.3.1.10"
+}

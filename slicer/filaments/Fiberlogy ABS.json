@@ -1,0 +1,62 @@
+{
+    "compatible_printers": [],
+    "default_filament_colour": [
+        "#FBAF84"
+    ],
+    "during_print_exhaust_fan_speed": [
+        "35"
+    ],
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "32"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "35"
+    ],
+    "filament_flow_ratio": [
+        "0.935"
+    ],
+    "filament_max_volumetric_speed": [
+        "32"
+    ],
+    "filament_settings_id": [
+        "Fiberlogy ABS"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "from": "User",
+    "inherits": "Vzbot Generic ASA",
+    "is_custom_defined": "0",
+    "name": "Fiberlogy ABS",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255"
+    ],
+    "nozzle_temperature_range_low": [
+        "250"
+    ],
+    "overhang_fan_speed": [
+        "35"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "slow_down_min_speed": [
+        "5"
+    ],
+    "version": "2.3.1.10"
+}

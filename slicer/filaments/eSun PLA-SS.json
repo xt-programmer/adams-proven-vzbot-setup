@@ -1,0 +1,64 @@
+{
+    "additional_cooling_fan_speed": [
+        "80"
+    ],
+    "compatible_printers": [
+        "Vzbot 330 AWD 0.4 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+        "95"
+    ],
+    "default_filament_colour": [
+        "#FB8ABF"
+    ],
+    "during_print_exhaust_fan_speed": [
+        "50"
+    ],
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "90"
+    ],
+    "fan_min_speed": [
+        "75"
+    ],
+    "filament_max_volumetric_speed": [
+        "50"
+    ],
+    "filament_settings_id": [
+        "eSun PLA-SS"
+    ],
+    "filament_vendor": [
+        "eSun"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "eSun PLA-SS",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "overhang_fan_speed": [
+        "95"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "slow_down_layer_time": [
+        "0"
+    ],
+    "slow_down_min_speed": [
+        "5"
+    ],
+    "textured_plate_temp": [
+        "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "version": "2.3.1.10"
+}

@@ -1,0 +1,70 @@
+{
+    "complete_print_exhaust_fan_speed": [
+        "100"
+    ],
+    "default_filament_colour": [
+        "#858585"
+    ],
+    "during_print_exhaust_fan_speed": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "150"
+    ],
+    "filament_density": [
+        "1.3"
+    ],
+    "filament_deretraction_speed": [
+        "20"
+    ],
+    "filament_flow_ratio": [
+        "1.05"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_retraction_length": [
+        "0.4"
+    ],
+    "filament_retraction_speed": [
+        "15"
+    ],
+    "filament_settings_id": [
+        "Fiberon PPS-GF20"
+    ],
+    "filament_type": [
+        "PPS-CF"
+    ],
+    "filament_vendor": [
+        "Fiberon"
+    ],
+    "from": "User",
+    "inherits": "Vzbot Generic PA-CF",
+    "is_custom_defined": "0",
+    "name": "Fiberon PPS-GF20",
+    "nozzle_temperature": [
+        "335"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "340"
+    ],
+    "nozzle_temperature_range_high": [
+        "350"
+    ],
+    "nozzle_temperature_range_low": [
+        "310"
+    ],
+    "slow_down_min_speed": [
+        "5"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.3.1.10"
+}
